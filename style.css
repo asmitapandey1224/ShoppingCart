@@ -67,14 +67,14 @@ header .shopping span{
     position: fixed;
     top:0;
     left: 100%;
-    width: 300px;
+    width: 500px;
     background-color: #453E3B;
     height: 100vh;
     transition: 0.5s;
     overflow: auto;
 }
 .active .card{
-    left: calc(100% - 300px);
+    left: calc(100% - 500px);
 }
 .active .container{
    transform: translateX(-200px);
@@ -131,4 +131,11 @@ header .shopping span{
 }
 .listCard .count{
     margin: 0 10px;
+}
+.addToCart button{
+    cursor: pointer;
+}
+.addToCart button:hover{
+    background-color: rgb(243, 239, 239);
+    color: #1C1F25;
 }
